@@ -1,2 +1,6 @@
-# dagson
-A JSON seralization format for direct acyclic graphs (dags) with optional properties for the dags, nodes and transisitions.
+# DAGSON
+A week-based calendar
+
+Version: 0.1
+
+Datetime: 2018-07-29T:57:01Z
