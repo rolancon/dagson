@@ -1,5 +1,5 @@
 # DAGSON
-A JSON seralization format for direct acyclic graphs (dags) 
+A JSON seralization format for Direct Acyclic Graphs (DAGs), with optional properties for the DAG, nodes and transisitions.
 
 Version: 0.1
 
@@ -14,6 +14,8 @@ File extension `.dag`
 ["A", "B"]
 
 ["A", "B", "C"]
+
+[{"key1": "value1"}, "A", "B"]
 
 ---
 
