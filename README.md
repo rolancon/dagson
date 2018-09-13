@@ -8,7 +8,7 @@ Datetime: 2018-07-29T:57:01Z
 ##
 File extension: `.dag`
 
-![test](imgs/["A"%2C "B"].png?raw=true)
+![test](imgs/1.png)
 
 ```yaml
 ---
