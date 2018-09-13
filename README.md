@@ -8,6 +8,8 @@ Datetime: 2018-07-29T:57:01Z
 ##
 File extension: `.dag`
 
+[["A", "B"]](imgs/["A"%2C "B"].png)
+
 ```yaml
 ---
 
