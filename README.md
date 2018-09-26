@@ -1,5 +1,5 @@
 # DAGSON
-A JSON seralization format for Direct Acyclic Graphs (DAGs), with optional properties for the DAG, nodes and transisitions.
+A JSON seralization format for Direct Acyclic Graphs (DAGs), with optional properties for the DAG, nodes and transitions.
 
 Version: 0.1
 
@@ -17,6 +17,8 @@ File extension: `.dag`
 
 ![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
 ["A", "B", {{{"name": "graph"}}}]
+
+## Nodes with properties
 
 ![["A", {"key" "value"}, "B"]](imgs/4.png)
 ["A", {"key" "value"}, "B"]
@@ -39,11 +41,15 @@ File extension: `.dag`
 ![["A", "B", "C", {"key": "value"}]](imgs/10.png)
 ["A", "B", "C", {"key": "value"}]
 
+## Nodes with same properties
+
 ![[["A", "B"], {"key": "value"}]](imgs/11.png)
 [["A", "B"], {"key": "value"}]
 
 ![[["A", "B", "C"], {"key": "value"}]](imgs/12.png)
 [["A", "B", "C"], {"key": "value"}]
+
+## Transitions with properties
 
 ![["A", {{"key": "value"}}, "B"]](imgs/13.png)
 ["A", {{"key": "value"}}, "B"]
@@ -57,6 +63,8 @@ File extension: `.dag`
 ![["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]](imgs/16.png)
 ["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]
 
+## Grouped nodes
+
 ![[["A", "B"], ["A", "C"]]](imgs/17.png)
 [["A", "B"], ["A", "C"]]
 
@@ -69,6 +77,8 @@ File extension: `.dag`
 ![[["A", "B", "C", "D"], ["A", "C"], ["A", "D"], ["B", "D"]]](imgs/20.png)
 [["A", "B", "C", "D"], ["A", "C"], ["A", "D"], ["B", "D"]]
 
+## Nested nodes
+
 ![["A", ["B"], "C"]](imgs/21.png)
 ["A", ["B"], "C"]
 
@@ -78,8 +88,12 @@ File extension: `.dag`
 ![["A", ["B", ["C"], "D"], "C", "D"]](imgs/23.png)
 ["A", ["B", ["C"], "D"], "C", "D"]
 
+## Graph with two start nodes
+
 ![[["A", "C"], ["B", "C"]]](imgs/24.png)
 [["A", "C"], ["B", "C"]]
+
+## Transition with overriden common property
 
 ![[["A", ["B", {{"key2": null}}, "C"], "C"], {{"key1": "value1", "key2": "value2"}}]](imgs/25.png)
 [["A", ["B", {{"key2": null}}, "C"], "C"], {{"key1": "value1", "key2": "value2"}}]
