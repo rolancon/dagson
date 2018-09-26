@@ -43,9 +43,9 @@ File extension: `.dag`
 
 ---
 
-["A", {{"key1": "value1"}}, "B"]
+["A", {{"key": "value"}}, "B"]
 
-[["A", "B", "C"], {{"key1": "value1"}}]
+[["A", "B", "C"], {{"key": "value"}}]
 
 ["A", {{"key1": "value1"}}, "B", {{"key2": "value2"}}, "C"]
 
