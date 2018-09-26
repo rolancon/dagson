@@ -9,13 +9,14 @@ Datetime: 2018-07-29T:57:01Z
 File extension: `.dag`
 
 
-![["A", "B"]](imgs/1.png "[\"A\", \"B\"]")
+![["A", "B"]](imgs/1.png)
 ["A", "B"]
 
-
 ![["A", "B", "C"]](imgs/2.png)
+["A", "B", "C"]
 
 ![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
+["A", "B", {{{"name": "graph"}}}]
 
 ![test](imgs/4.png)
 
