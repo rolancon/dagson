@@ -5,9 +5,9 @@ Version: 0.1
 
 Datetime: 2018-07-29T:57:01Z
 
-##
 File extension: `.dag`
 
+## Simple nodes
 
 ![["A", "B"]](imgs/1.png)
 ["A", "B"]
