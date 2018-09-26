@@ -10,6 +10,7 @@ File extension: `.dag`
 
 
 ![["A", "B"]](imgs/1.png "[\"A\", \"B\"]")
+["A", "B"]
 
 ![["A", "B", "C"]](imgs/2.png)
 
