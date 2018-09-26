@@ -57,49 +57,29 @@ File extension: `.dag`
 ![["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]](imgs/16.png)
 ["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]
 
-![test](imgs/17.png)
-
-![test](imgs/18.png)
-
-![test](imgs/19.png)
-
-![test](imgs/20.png)
-
-![test](imgs/21.png)
-
-![test](imgs/22.png)
-
-![test](imgs/23.png)
-
-![test](imgs/24.png)
-
-![test](imgs/25.png)
-
-
-
-
-
+![[["A", "B"], ["A", "C"]]](imgs/17.png)
 [["A", "B"], ["A", "C"]]
 
+![[["A", "B", "C"], ["A", "C"]]](imgs/18.png)
 [["A", "B", "C"], ["A", "C"]]
 
+![[["A", "B"], ["A", "C"], ["A", "D"], ["B", "C"], ["B", "D"], ["C", "D"]]](imgs/19.png)
 [["A", "B"], ["A", "C"], ["A", "D"], ["B", "C"], ["B", "D"], ["C", "D"]]
 
+![[["A", "B", "C", "D"], ["A", "C"], ["A", "D"], ["B", "D"]]](imgs/20.png)
 [["A", "B", "C", "D"], ["A", "C"], ["A", "D"], ["B", "D"]]
 
----
-
+![["A", ["B"], "C"]](imgs/21.png)
 ["A", ["B"], "C"]
 
+![["A", ["B", "C"], "C"]](imgs/22.png)
 ["A", ["B", "C"], "C"]
 
+![["A", ["B", ["C"], "D"], "C", "D"]](imgs/23.png)
 ["A", ["B", ["C"], "D"], "C", "D"]
 
----
-
+![[["A", "C"], ["B", "C"]]](imgs/24.png)
 [["A", "C"], ["B", "C"]]
 
----
-
+![[["A", ["B", {{"key2": null}}, "C"], "C"], {{"key1": "value1", "key2": "value2"}}]](imgs/25.png)
 [["A", ["B", {{"key2": null}}, "C"], "C"], {{"key1": "value1", "key2": "value2"}}]
-```
