@@ -17,11 +17,11 @@ File extension: `.dag`
 
 ["A", "B", "C"]
 
-[{"key1": "value1"}, "A", "B"]
+["A", "B", {{{"key": "value"}}}]
 
 ---
 
-["A", {"key1": "value1"}, "B"]
+["A", , {{{"key": "value"}}}{"key1": "value1"}, "B"]
 
 ["A", {"key1": "value1", "key2": "value2"}}, "B"]
 
