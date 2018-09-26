@@ -3,7 +3,7 @@ A JSON seralization format for Direct Acyclic Graphs (DAGs), with optional prope
 
 Version: 0.1
 
-Datetime: 2018-07-29T:57:01Z
+Datetime: 2018-09-26T19:17:00Z
 
 File extension: `.dag`
 
@@ -15,7 +15,7 @@ File extension: `.dag`
 ![["A", "B", "C"]](imgs/2.png)
 ["A", "B", "C"]
 
-# Graph with properties
+## Graph with properties
 
 ![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
 ["A", "B", {{{"name": "graph"}}}]
