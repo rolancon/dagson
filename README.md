@@ -15,6 +15,8 @@ File extension: `.dag`
 ![["A", "B", "C"]](imgs/2.png)
 ["A", "B", "C"]
 
+# Graph with properties
+
 ![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
 ["A", "B", {{{"name": "graph"}}}]
 
