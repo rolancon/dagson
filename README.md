@@ -18,19 +18,26 @@ File extension: `.dag`
 ![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
 ["A", "B", {{{"name": "graph"}}}]
 
-![test](imgs/4.png)
+![["A", , {"key" "value"}, "B"]](imgs/4.png)
+["A", , {"key" "value"}, "B"]
 
-![test](imgs/5.png)
+![["A", {"key1": "value1", "key2": "value2"}}, "B"]](imgs/5.png)
+["A", {"key1": "value1", "key2": "value2"}}, "B"]
 
-![test](imgs/6.png)
+![["A", {"key1": "value1"}, "B", {"key2": "value2"}]](imgs/6.png)
+["A", {"key1": "value1"}, "B", {"key2": "value2"}]
 
-![test](imgs/7.png)
+![["A", "B", {"key": "value"}]](imgs/7.png)
+["A", "B", {"key": "value"}]
 
-![test](imgs/8.png)
+![["A", {"key": "value"}, "B", "C"]](imgs/8.png)
+["A", {"key": "value"}, "B", "C"]
 
-![test](imgs/9.png)
+![["A", "B", {"key": "value"}, "C"]](imgs/9.png)
+["A", "B", {"key": "value"}, "C"]
 
-![test](imgs/10.png)
+![["A", "B", "C", {"key": "value"}]](imgs/10.png)
+["A", "B", "C", {"key": "value"}]
 
 ![test](imgs/11.png)
 
@@ -65,20 +72,6 @@ File extension: `.dag`
 
 
 ---
-
-["A", , {"key" "value"}, "B"]
-
-["A", {"key1": "value1", "key2": "value2"}}, "B"]
-
-["A", {"key1": "value1"}, "B", {"key2": "value2"}]
-
-["A", "B", {"key": "value"}]
-
-["A", {"key": "value"}, "B", "C"]
-
-["A", "B", {"key": "value"}, "C"]
-
-["A", "B", "C", {"key": "value"}]
 
 ---
 
