@@ -9,7 +9,7 @@ Datetime: 2018-07-29T:57:01Z
 File extension: `.dag`
 
 
-![["A", "B"]](imgs/1.png "["A", "B"]")
+![["A", "B"]](imgs/1.png "[\"A\", \"B\"]")
 
 ![["A", "B", "C"]](imgs/2.png)
 
