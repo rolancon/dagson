@@ -9,11 +9,11 @@ Datetime: 2018-07-29T:57:01Z
 File extension: `.dag`
 
 
-![test](imgs/1.png)
+![["A", "B"]](imgs/1.png)
 
-![test](imgs/2.png)
+![["A", "B", "C"]](imgs/2.png)
 
-![test](imgs/3.png)
+![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
 
 ![test](imgs/4.png)
 
@@ -60,14 +60,6 @@ File extension: `.dag`
 ![test](imgs/25.png)
 
 
-```yaml
----
-
-["A", "B"]
-
-["A", "B", "C"]
-
-["A", "B", {{{"name": "graph"}}}]
 
 ---
 
