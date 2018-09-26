@@ -17,7 +17,7 @@ File extension: `.dag`
 
 ["A", "B", "C"]
 
-["A", "B", {{{"key": "value"}}}]
+["A", "B", {{{"type": "digraph"}}}]
 
 ---
 
