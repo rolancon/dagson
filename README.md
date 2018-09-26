@@ -18,8 +18,8 @@ File extension: `.dag`
 ![["A", "B", {{{"name": "graph"}}}]](imgs/3.png)
 ["A", "B", {{{"name": "graph"}}}]
 
-![["A", , {"key" "value"}, "B"]](imgs/4.png)
-["A", , {"key" "value"}, "B"]
+![["A", {"key" "value"}, "B"]](imgs/4.png)
+["A", {"key" "value"}, "B"]
 
 ![["A", {"key1": "value1", "key2": "value2"}}, "B"]](imgs/5.png)
 ["A", {"key1": "value1", "key2": "value2"}}, "B"]
@@ -39,17 +39,23 @@ File extension: `.dag`
 ![["A", "B", "C", {"key": "value"}]](imgs/10.png)
 ["A", "B", "C", {"key": "value"}]
 
-![test](imgs/11.png)
+![[["A", "B"], {"key": "value"}]](imgs/11.png)
+[["A", "B"], {"key": "value"}]
 
-![test](imgs/12.png)
+![["A", "B", "C"], {"key": "value"}]](imgs/12.png)
+["A", "B", "C"], {"key": "value"}]
 
-![test](imgs/13.png)
+![["A", {{"key": "value"}}, "B"]](imgs/13.png)
+["A", {{"key": "value"}}, "B"]
 
-![test](imgs/14.png)
+![[["A", "B", "C"], {{"key": "value"}}]](imgs/14.png)
+[["A", "B", "C"], {{"key": "value"}}]
 
-![test](imgs/15.png)
+![["A", {{"key1": "value1"}}, "B", {{"key2": "value2"}}, "C"]](imgs/15.png)
+["A", {{"key1": "value1"}}, "B", {{"key2": "value2"}}, "C"]
 
-![test](imgs/16.png)
+![["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]](imgs/16.png)
+["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]
 
 ![test](imgs/17.png)
 
@@ -71,25 +77,7 @@ File extension: `.dag`
 
 
 
----
 
----
-
-[["A", "B"], {"key": "value"}]
-
-["A", "B", "C"], {"key": "value"}]
-
----
-
-["A", {{"key": "value"}}, "B"]
-
-[["A", "B", "C"], {{"key": "value"}}]
-
-["A", {{"key1": "value1"}}, "B", {{"key2": "value2"}}, "C"]
-
-["A", {"key1": "value1"}, {{"key2": "value2"}}, "B"]
-
----
 
 [["A", "B"], ["A", "C"]]
 
