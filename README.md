@@ -42,8 +42,8 @@ File extension: `.dag`
 ![[["A", "B"], {"key": "value"}]](imgs/11.png)
 [["A", "B"], {"key": "value"}]
 
-![["A", "B", "C"], {"key": "value"}]](imgs/12.png)
-["A", "B", "C"], {"key": "value"}]
+![[["A", "B", "C"], {"key": "value"}]](imgs/12.png)
+[["A", "B", "C"], {"key": "value"}]
 
 ![["A", {{"key": "value"}}, "B"]](imgs/13.png)
 ["A", {{"key": "value"}}, "B"]
