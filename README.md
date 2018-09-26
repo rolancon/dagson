@@ -21,19 +21,19 @@ File extension: `.dag`
 
 ---
 
-["A", , {{{"key": "value"}}}{"key1": "value1"}, "B"]
+["A", , {"key" "value"}, "B"]
 
 ["A", {"key1": "value1", "key2": "value2"}}, "B"]
 
 ["A", {"key1": "value1"}, "B", {"key2": "value2"}]
 
-["A", "B", {"key1": "value1"}]
+["A", "B", {"key": "value"}]
 
-["A", {"key1": "value1"}, "B", "C"]
+["A", {"key": "value"}, "B", "C"]
 
-["A", "B", {"key1": "value1"}, "C"]
+["A", "B", {"key": "value"}, "C"]
 
-["A", "B", "C", {"key1": "value1"}]
+["A", "B", "C", {"key": "value"}]
 
 ---
 
