@@ -1,10 +1,6 @@
 # DAGSON
 A JSON seralization format for Direct Acyclic Graphs (DAGs), with optional properties for the DAG, nodes and transitions.
 
-Version: 0.1
-
-Datetime: 2018-09-26T19:18:00Z
-
 File extension: `.dag`
 
 ## Simple nodes
@@ -22,8 +18,8 @@ File extension: `.dag`
 
 ## Nodes with properties
 
-![["A", {"key" "value"}, "B"]](imgs/4.png)
-["A", {"key" "value"}, "B"]
+![["A", {"key": "value"}, "B"]](imgs/4.png)
+["A", {"key": "value"}, "B"]
 
 ![["A", {"key1": "value1", "key2": "value2"}}, "B"]](imgs/5.png)
 ["A", {"key1": "value1", "key2": "value2"}}, "B"]
